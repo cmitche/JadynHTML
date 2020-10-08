@@ -16,7 +16,7 @@ body{
 
 /* LINE 16 - fixed the off center list */
 #infoBox ul{
-    padding: 0px;;
+    padding: 0px;; /* FIXED: set the padding to ZERO */
 }
 
 #infoBox ul li{
