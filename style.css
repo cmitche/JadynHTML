@@ -1,13 +1,24 @@
-.firstclass{
+body{
+    background-color: papayawhip;
+}
+
+.header{
     text-align: center;
     margin: auto;
     width: 50%;
     border: 3px solid #73AD21;
 } 
-#firstid ul{ 
-    margin-left: -50 px;
+
+#infoBox { 
     list-style-type: none;
+    width: 100%;
 } 
-body{
-    background-color: papayawhip;
+
+/* LINE 16 - fixed the off center list */
+#infoBox ul{
+    padding: 0px;;
+}
+
+#infoBox ul li{
+    list-style-type: none;
 }
